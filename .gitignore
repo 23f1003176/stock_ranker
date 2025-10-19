@@ -1,0 +1,271 @@
+# =========================
+# PYTHON CORE
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# C extensions
+*.so
+
+# =========================
+# ENVIRONMENTS
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# DISTRIBUTION / PACKAGING
+# =========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# PYINSTALLER
+# =========================
+# PyInstaller creates build artifacts, include spec files
+*.manifest
+*.spec
+
+# =========================
+# UNIT TEST / COVERAGE
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+.pytest_cache/
+cover/
+
+# =========================
+# JUPYTER NOTEBOOKS
+# =========================
+.ipynb_checkpoints
+*.ipynb_convert/
+
+# =========================
+# TRANSLATIONS
+# =========================
+*.mo
+*.pot
+
+# =========================
+# DJANGO / FLASK / FASTAPI
+# =========================
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask instance folder
+instance/
+.webassets-cache
+
+# FastAPI / Uvicorn logs
+logs/
+*.log
+
+# =========================
+# SCRAPY
+# =========================
+.scrapy
+
+# =========================
+# Sphinx documentation
+# =========================
+docs/_build/
+doc/_build/
+build/docs/
+build/html/
+Thumbs.db
+
+# =========================
+# PyBuilder
+# =========================
+target/
+
+# =========================
+# IPython
+# =========================
+profile_default/
+ipython_config.py
+
+# =========================
+# Pycharm / VSCode / IDEs
+# =========================
+# JetBrains IDEs
+.idea/
+*.iml
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# MyPy / Type Checking
+# =========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# Pylint / Bandit / Ruff / etc.
+# =========================
+.pylint.d/
+.bandit
+.ruff_cache/
+
+# =========================
+# ENVIRONMENT VARIABLES / CREDENTIALS
+# =========================
+# dotenv
+.env.local
+.env.production
+.env.staging
+.env.development
+*.env
+
+# credentials / config files
+secrets.json
+config.json
+config.yaml
+*.pem
+*.key
+*.crt
+
+# =========================
+# DATABASES / STORAGE
+# =========================
+*.db
+*.sqlite3
+*.sqlite
+*.db-journal
+*.csv
+*.tsv
+*.dat
+
+# =========================
+# LOGS / TEMP FILES
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*~
+.cache/
+tmp/
+temp/
+
+# =========================
+# AWS / GOOGLE / AZURE / DOCKER
+# =========================
+# AWS credentials
+.aws/
+.aws/credentials
+.aws/config
+
+# Google Cloud
+.gcloud/
+*.json
+
+# Azure
+.azure/
+*.azure
+
+# Docker
+*.pid
+Dockerfile~
+docker-compose.override.yml
+.dockerignore
+.docker/
+
+# =========================
+# CI/CD (GitHub Actions, etc.)
+# =========================
+.github/workflows/*.bak
+*.coverage
+reports/
+artifacts/
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+Desktop.ini
+
+# =========================
+# If using Streamlit / Dash / Gradio
+# =========================
+.streamlit/
+.cache/
+.gradio/
+
+# =========================
+# If using ML / DL (TensorFlow, PyTorch, scikit-learn, etc.)
+# =========================
+# Model checkpoints and datasets
+checkpoints/
+models/
+saved_models/
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.joblib
+*.pkl
+data/
+datasets/
+output/
+
+# =========================
+# If using Node (for frontend or hybrid apps)
+# =========================
+node_modules/
+package-lock.json
+yarn.lock
+
+# =========================
+# If deploying via Docker
+# =========================
+docker-compose.override.yml
+*.pid
+.dockerignore
+.docker/
